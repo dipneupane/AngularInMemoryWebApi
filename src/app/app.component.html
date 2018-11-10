@@ -1,0 +1,18 @@
+ <h1>Angular In-Memory Web API Demo</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>ADDRESS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let friend of friendsList">
+        <td>{{friend.id}}</td>
+        <td>{{friend.name}}</td>
+        <td>{{friend.address}}</td>
+      </tr>
+    </tbody>
+  </table>
